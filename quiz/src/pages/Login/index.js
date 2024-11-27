@@ -23,7 +23,7 @@ function Login(){
             dispatch(checkLogin(true));
             navigate("/")
         }else{
-            alert("Sai tai khoan hoac mat khau!");
+            alert("Tài khoản hoặc mật khẩu không chính xác!");
         }
         
     }
