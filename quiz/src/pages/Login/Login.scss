@@ -1,0 +1,71 @@
+/* CSS cho form Login */
+.login-form-custom {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+  /* Tiêu đề form */
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: orangered;
+  }
+  
+  /* Định dạng các trường input */
+  div {
+    margin-bottom: 15px;
+  
+    input {
+      width: 100%;
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      transition: border-color 0.3s;
+  
+      &:focus {
+        outline: none;
+        border-color: orangered;
+        box-shadow: 0 0 5px rgba(255, 69, 0, 0.4);
+      }
+    }
+  }
+  
+  /* Nút Submit */
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+  
+    &:hover {
+      background: #ff5722;
+    }
+  
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 5px rgba(255, 69, 0, 0.4);
+    }
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    max-width: 90%;
+    padding: 15px;
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}

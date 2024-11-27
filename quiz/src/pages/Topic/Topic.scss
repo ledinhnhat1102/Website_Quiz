@@ -1,0 +1,62 @@
+/* Cải thiện bảng */
+.topics-table {
+  width: 50%;
+  margin: 10px 0;
+  border-collapse: collapse; /* Giảm khoảng cách giữa các ô */
+
+  thead {
+    background-color: #f4f4f4; /* Nền bảng tiêu đề */
+    color: #333;
+  }
+
+  th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd; /* Đường viền bảng */
+  }
+
+  th {
+    font-weight: bold;
+    background-color: #ff5722; /* Màu nền tiêu đề */
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Màu nền cho các hàng chẵn */
+  }
+
+  tr:hover {
+    background-color: #ffe0b2; /* Màu nền khi hover lên hàng */
+    cursor: pointer;
+  }
+}
+
+/* Cải thiện nút "Làm bài" */
+.btn-start {
+  display: inline-block;
+  padding: 8px 15px;
+  font-size: 1rem;
+  background-color: #ff5722;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, transform 0.2s;
+
+  &:hover {
+    background-color: orange; /* Nền hồng đậm khi hover */
+    transform: scale(1.05); /* Tăng kích thước khi hover */
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 87, 34, 0.6);
+  }
+}
+
+/* Cải thiện tiêu đề */
+h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  color: #ff5722; /* Màu chữ */
+  font-size: 30px;
+}
