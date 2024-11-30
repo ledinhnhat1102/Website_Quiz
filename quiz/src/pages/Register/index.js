@@ -14,7 +14,7 @@ function Register() {
 
                 const checkExitsEmail = await checkExits("email", email);
                 if(checkExitsEmail.lennth > 0){
-                    alert("Email da ton tai!");
+                    alert("Email đã tồn tại!");
                 }else{
                     const options = {
                         fullName: fullName,
@@ -25,9 +25,10 @@ function Register() {
 
                     const response =await register(options);
                         if(response){
+                            alert("Đăng ký thành công!");
                             navigate("/login")
                         }else{
-                            alert("Dang ky khong thanh con");
+                            alert("Đăng ký không thành công");
                         }
 
                         }

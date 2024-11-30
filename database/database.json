@@ -925,7 +925,7 @@
       ]
     },
     {
-      "id": 1,
+      "id": "1",
       "userId": 1,
       "topicId": 1,
       "answers": [
@@ -972,7 +972,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "userId": 1,
       "topicId": 4,
       "answers": [
@@ -1019,7 +1019,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "userId": 1,
       "topicId": 3,
       "answers": [
@@ -1062,6 +1062,100 @@
         {
           "questionId": 30,
           "answer": 2
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 5,
+          "answer": 1
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 0
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        },
+        {
+          "questionId": 9,
+          "answer": 1
+        },
+        {
+          "questionId": 10,
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "userId": null,
+      "topicId": 1,
+      "answers": [
+        {
+          "questionId": 1,
+          "answer": 2
+        },
+        {
+          "questionId": 2,
+          "answer": 1
+        },
+        {
+          "questionId": 3,
+          "answer": 1
+        },
+        {
+          "questionId": 4,
+          "answer": 0
+        },
+        {
+          "questionId": 5,
+          "answer": 1
+        },
+        {
+          "questionId": 6,
+          "answer": 1
+        },
+        {
+          "questionId": 7,
+          "answer": 1
+        },
+        {
+          "questionId": 8,
+          "answer": 1
+        },
+        {
+          "questionId": 9,
+          "answer": 1
+        },
+        {
+          "questionId": 10,
+          "answer": 0
         }
       ]
     }
