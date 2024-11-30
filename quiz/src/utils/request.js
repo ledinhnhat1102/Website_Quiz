@@ -1,5 +1,7 @@
 // const API_DOMAIN = "http://localhost:3002/";
-const API_DOMAIN = "https://vrsc4c-8080.csb.app/";
+const API_DOMAIN = "https://z7r229-8080.csb.app/";
+
+// link web api https://codesandbox.io/
 
 export const get = async (path) => {
     const response = await fetch(API_DOMAIN + path);
